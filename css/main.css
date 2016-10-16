@@ -1,0 +1,42 @@
+#weatherForcast .forcast{
+    background-color: #80b4ec;
+}
+
+#weatherForcast .current_forcast{
+    padding: 15px;
+    text-align: center;
+    font-size: 39px;
+    color: #3a3a3a;
+}
+
+#weatherForcast .current_forcast .date{
+    font-size: 19px;
+    text-align: right;
+}
+
+#weatherForcast .future_forcast .table{
+    display: table;
+}
+
+#weatherForcast .future_forcast .table .cell{
+    display: inline-flex;
+    float: left;
+    padding: 19px 0px;
+    margin: 1px;
+    width: 33%;
+    background-color:#38383c;
+    color: #fff;
+}
+
+#weatherForcast .future_forcast .table .cell span{
+    padding: 5px;
+    display: block;
+}
+
+#dom_positioning{
+    height: 100px;
+    width: 100px;
+    background-color: #c7c6c6;
+    line-height: 100px;
+    text-align: center;
+}
